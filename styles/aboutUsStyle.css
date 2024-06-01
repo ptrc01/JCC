@@ -1,0 +1,425 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Playfair Display";
+    text-decoration: none;
+    list-style: none;
+    align-items: center;
+    
+
+}
+
+body{
+    background-color: #1E1E1E;
+}
+
+/* HEADER/ NAVBAR */
+
+header{
+    background-color: #1E1E1E;
+    position: fixed;
+    padding: 0px 98px 0px 98px;
+    margin: 0;
+    width: 100%;
+    height: auto;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hb{
+    cursor: pointer;
+    display: none;
+}
+
+.left_nav{
+    display: flex;
+    align-items: center;
+}
+
+.navbar #cu{
+    display: none;
+}
+
+.navbar{
+    display: flex;
+    align-items: start;
+    margin-left: 57px;
+}
+
+.navbar a{
+    margin-left: 40px;
+    color: #9B9797;
+    justify-content: space-between;
+}
+
+.navbar a:hover{
+    color: #ffffff;
+}
+
+.navbar .utama{
+    color: #E6B859;
+}
+
+.contactUs{
+    
+    background-color: #E6B859;
+    color: #1E1E1E;
+    padding: 10px 20px;
+    border-radius: 50px;
+    
+}
+
+.contactUs:hover{
+    background-color: #ffffff;
+    color:#E6B859;
+}
+
+/* navigation */
+
+.navigation {
+    margin-top: 100px;
+    display: inline-block;
+}
+
+.navigation a{
+   
+    color: #E6B859;
+}
+
+.linker{
+    margin-left: 98px;
+    gap:5px;
+    font-size: 24px;
+    color: #E6B859;
+    display: flex;
+}
+
+/* content  kanan*/
+
+.content{
+    margin: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.right{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin-bottom: 5%;
+}
+
+.right p{
+    height: auto;
+    font-size: 24px;
+    color: #ffffff;
+    width: max-content;
+    width: 100%;
+    height: auto;
+    text-align: justify;
+    margin-top: 2%;
+}
+
+.right span{
+    color: #E6B859;
+}
+
+.right img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.right .gambar{
+    width: 100%;
+    height: auto;
+}
+
+
+/* footer */
+footer{
+    background-color: #4B4A4A;
+    width: 100%;
+    height: auto;
+    padding: 47px 92px 39px 92px;
+    
+}
+
+.atas{
+    justify-content: space-between;
+}
+
+.menu{
+    display: flex;
+    align-items: start;
+}
+
+.atas h1{
+    color: #E6B859;
+    font-size: 15px;
+}
+
+.atas li {
+    padding-top: 19px;
+    font-size: 15px;  
+}
+
+.atas a{
+    color: #ffffff;
+}
+
+.atas{
+    display: flex;
+    align-items: start;
+}
+
+.jcc{
+    margin-left: 137px;
+}
+
+.jcc a:hover{
+    color:#E6B859;
+}
+
+.legal{
+    margin-left: 137px;
+}
+
+.legal a:hover{
+    color:#E6B859;
+}
+
+.socmed{
+    margin-top: 71px;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 19px;
+}
+
+footer p{
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    margin-top: 63px;
+    border-top-style: solid;
+    border-color: #E6B859;
+    padding-top: 1.4000000000000001vw;
+}
+
+@media only screen and (max-width: 794px){
+
+    /* header */
+    header{
+        background-color: #1E1E1E;
+        position: fixed;
+        padding: 0px 50px 0px 50px;
+        margin: 0;
+        width: 100%;
+        /* height: 93px; */
+        text-decoration: none;
+        list-style: none;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .navbar #cu{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .right{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .hb{
+        display: block;
+    }
+
+    .navbar{
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        width: 300px;
+        height: auto;
+        background-color: #4B4A4A;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 20px;
+        transition: all .50s ease;
+    }
+
+    .navbar a{
+        font-size: 24px;
+        margin-bottom: 20px;
+        margin-left: 0;
+        display: block;
+        color: #9B9797;
+        
+    }
+
+    .navbar.activate{
+        right: 2%;
+    }
+
+    .navbar a:hover{
+        color: #ffffff;
+    }
+
+    .navbar .homePage{
+        color: #E6B859;
+    }
+
+    .contactUs{
+        display: none;
+    }
+
+    /* navigation */
+
+    .navigation {
+        margin-top: 100px;
+        display: inline-block;
+    }
+
+    .navigation a{
+    
+        color: #E6B859;
+    }
+
+    .linker{
+        margin-left: 30px;
+        gap:5px;
+        font-size: 24px;
+        color: #E6B859;
+        display: flex;
+    }
+
+    /* content  kanan*/
+
+    .content{
+        margin: 10%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .right{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        
+    }
+
+
+
+    .right p{
+        height: auto;
+        font-size: 20px;
+        color: #ffffff;
+        width: max-content;
+        width: 100%;
+        height: auto;
+        text-align: justify;
+    }
+
+    .right img{
+        width: 50%;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .right .gambar {
+        width: 100%;
+        height: auto;
+    }
+
+
+    /* footer */
+    footer{
+        background-color: #4B4A4A;
+        width: 100%;
+        height: auto;
+        padding: 30px ;
+        
+    }
+
+    footer .menu img{
+        width: 30%;
+        height: auto;
+    }
+    .atas{
+        justify-content: space-between;
+    }
+
+    .menu{
+        display: flex;
+        align-items: start;
+    }
+
+    .atas h1{
+        color: #E6B859;
+        font-size: 10px;
+    }
+
+    .atas li {
+        padding-top: 19px;
+        font-size: 10px;  
+    }
+
+    .atas a{
+        color: #ffffff;
+    }
+
+    .atas{
+        display: flex;
+        align-items: start;
+    }
+
+    .jcc{
+        margin-left: 20px;
+    }
+
+    .legal{
+        margin-left: 20px;
+    }
+
+    .socmed{
+        margin-top: 71px;
+        text-align: center;
+    }
+
+    .logo{
+        display: flex;
+        justify-content: space-around;
+        padding-top: 19px;
+    }
+
+    footer p{
+        display: flex;
+        justify-content: center;
+        color: #ffffff;
+        margin-top: 63px;
+        border-top-style: solid;
+        border-color: #E6B859;
+        padding-top: 28px;
+    }
+}
