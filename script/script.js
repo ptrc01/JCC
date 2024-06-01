@@ -8,7 +8,7 @@ hb.addEventListener('click', () =>{
 
 
 // COUNTDOWN HOMEPAGE
-var countdown = new Date("Jun 23, 2023 00:00:00").getTime();
+var countdown = new Date("Dec 23, 2024 00:00:00").getTime();
 var x = setInterval(function(){
     var now = new Date().getTime();
     var distance = countdown - now;
